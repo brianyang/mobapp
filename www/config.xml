@@ -5,7 +5,7 @@
         versionCode="10"
         version   = "1.0.0">
 
-        <name>PhoneGap Camera API Example</name>
+        <name>dj Brian Yang demo app</name>
 
         <description>
             The documentation example from the Cordova docs
@@ -14,12 +14,12 @@
         <author href="https://blog.digitalbackcountry.com" email="ryan@adobe.com">
             Ryan Stewart
         </author>
-        
+
         <preference name="phonegap-version" value="1.5.0" />
 
         <!-- if a single icon is specified then Build will use it for all platforms -->
         <icon src="icons/icon.png" />
-        
+
         <!-- the default attribute can also be used -->
         <icon src="icons/icon.png" default="true" />
 
@@ -35,7 +35,7 @@
         <icon src="icons/icon-android-36.png" width="36" height="36"/>
         <icon src="icons/icon-android-48.png" width="48" height="48"/>
         <icon src="icons/icon-android-72.png" width="72" height="72"/>
-    
+
         <!-- if a single splash screen is specified it will be used for all platforms. Multiple splash screens are recommended for iOS -->
         <gap:splash src="splashes/splash.png" />
 
