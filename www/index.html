@@ -100,7 +100,8 @@
     <script type="text/coffeescript">
       $('body').on 'click', '.fetchcovers', (e) ->
         e.preventDefault()
-        alert 'click'
+        jsondata = 'http://dj.subsonic.org/rest/getMusicDirectory.view?u=brian&p=home&v=1.1.0&c=myapp&f=json&id=633a5c55736572735c625c4d757369635c616c6c20706f70206d757369635c4c6f756e6765'
+        console.log jsondata
     </script>
   </head>
   <body>
