@@ -105,19 +105,18 @@
     </script>
   </head>
   <body>
-    <div style=display:none>
-    <button onclick="capturePhoto();">Capture Photo</button> <br>
-    <button onclick="capturePhotoEdit();">Capture Editable Photo</button> <br>
-    <button onclick="getPhoto(pictureSource.PHOTOLIBRARY);">From Photo Library</button><br>
-    <button onclick="getPhoto(pictureSource.SAVEDPHOTOALBUM);">From Photo Album</button><br>
-    <img style="display:none;width:60px;height:60px;" id="smallImage" src="" />
-    <img style="display:none;" id="largeImage" src="" />
-  </div>
-    <a class=fetchcovers href="/">fetch covers</a>
-    <a href="http://by.subsonic.org/rest/getMusicFolders.view?u=brian&p=enc:106a6c241b8797f52e1e77317b96a201&v=1.1.0&c=myapp&f=json">get music folders</a>
-    <a href="//by.subsonic.org/rest/getIndexes.view?u=brian&p=enc:106a6c241b8797f52e1e77317b96a201&v=1.1.0&c=myapp&f=json&musicFolderId=29">get indexes</a>
-    <a href="//by.subsonic.org/rest/getMusicDirectory.view?u=brian&p=enc:106a6c241b8797f52e1e77317b96a201&v=1.1.0&c=myapp&f=json&id=633a5c55736572735c625c4d757369635c6e65775c4c696c5f5761796e655f542d5061696e2d542d5761796e652d323031322d415458">music folder</a>
-    <a href="http://digidj.herokuapp.com">digidj</a>
-
+    <div style=display:none >
+      <button onclick="capturePhoto();">Capture Photo</button> <br>
+      <button onclick="capturePhotoEdit();">Capture Editable Photo</button> <br>
+      <button onclick="getPhoto(pictureSource.PHOTOLIBRARY);">From Photo Library</button><br>
+      <button onclick="getPhoto(pictureSource.SAVEDPHOTOALBUM);">From Photo Album</button><br>
+      <img style="display:none;width:60px;height:60px;" id="smallImage" src="" />
+      <img style="display:none;" id="largeImage" src="" />
+      <a class=fetchcovers href="/">fetch covers</a>
+      <a href="http://by.subsonic.org/rest/getMusicFolders.view?u=brian&p=enc:106a6c241b8797f52e1e77317b96a201&v=1.1.0&c=myapp&f=json">get music folders</a>
+      <a href="//by.subsonic.org/rest/getIndexes.view?u=brian&p=enc:106a6c241b8797f52e1e77317b96a201&v=1.1.0&c=myapp&f=json&musicFolderId=29">get indexes</a>
+      <a href="//by.subsonic.org/rest/getMusicDirectory.view?u=brian&p=enc:106a6c241b8797f52e1e77317b96a201&v=1.1.0&c=myapp&f=json&id=633a5c55736572735c625c4d757369635c6e65775c4c696c5f5761796e655f542d5061696e2d542d5761796e652d323031322d415458">music folder</a>
+    </div>
+    <a href="http://digidj.herokuapp.com/allMusic">digidj</a>
   </body>
 </html>
