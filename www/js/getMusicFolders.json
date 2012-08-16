@@ -1,0 +1,39 @@
+{"subsonic-response": {
+ "musicFolders": {"musicFolder": [
+  {
+   "id": 29,
+   "name": "new"
+  },
+  {
+   "id": 30,
+   "name": "self help"
+  },
+  {
+   "id": 32,
+   "name": "house, trance,d&b"
+  },
+  {
+   "id": 33,
+   "name": "music genres"
+  },
+  {
+   "id": 34,
+   "name": "various recent"
+  },
+  {
+   "id": 37,
+   "name": "discography"
+  },
+  {
+   "id": 39,
+   "name": "all music"
+  },
+  {
+   "id": 41,
+   "name": "courses"
+  }
+ ]},
+ "status": "ok",
+ "version": "1.7.0",
+ "xmlns": "http://subsonic.org/restapi"
+}}
